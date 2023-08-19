@@ -26,7 +26,7 @@ let generateCartItems = () => {
           <div class="title-price-x">
             <h4 class="title-price"> 
               <p>${name}</p>
-              <p class="cart-item-price">$ ${price}</p>
+              <p class="cart-item-price">₹ ${price}</p>
             </h4>
             <i onclick="removeItem(${id})" class="bi bi-x-lg"></i>
             </div>
@@ -36,7 +36,7 @@ let generateCartItems = () => {
             <div id=${id} class="quantity">${item}</div>
             <i onclick="increment(${id})" class="bi bi-plus-lg"></i>
           </div>
-            <h3>$${item * search.price}</>
+            <h3>₹${item * search.price}</>
         </div>
       </div>
       `;
@@ -118,7 +118,7 @@ let total_amount = () => {
       })
       .reduce((x, y) => x + y, 0);
     label.innerHTML = `
-      <h3>Total billL:$ ${amount}</h3>
+      <h3>Total billL:₹ ${amount}</h3>
       <a href="checkout.html"><button id "checkout"  class="checkout">Checkout</button> </a>
       <button onclick="clearCart()"  class="removeAll">Clear Cart</button>
       `;

@@ -8,6 +8,9 @@
   box-sizing: border-box;
 }
 
+.img-h {
+  height: 200px;
+}
 body {
   font-family: sans-serif;
 }
@@ -99,6 +102,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  /* padding-bottom: ; */
 }
 .buttons {
   display: flex;
@@ -150,9 +154,9 @@ a {
   background-color: red;
 }
 
-/** 
-* ! style rule for shopping-cart
-**/
+/* 
+ ! style rule for shopping-cart
+*/
 
 .shopping-cart {
   display: grid;
@@ -161,9 +165,9 @@ a {
   gap: 15px;
 }
 
-/** 
-* ! style rule for cart-item
-**/
+/* 
+  ! style rule for cart-item
+*/
 
 .cart-item {
   border: 2px solid #212529;
@@ -191,7 +195,7 @@ a {
   padding: 3px 6px;
 }
 
-/* checkout stlye */
+/* !checkout stlye */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 
