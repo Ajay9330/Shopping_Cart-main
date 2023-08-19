@@ -22,7 +22,7 @@ let shopItemData = [
   },
   {
     id: "productno4",
-    name: "OFF-W short",
+    name: "OFF-WHITE",
     price: "991",
     desc: "Black shorts with Yellow wave .",
     img: "images/img-4.jpg",
