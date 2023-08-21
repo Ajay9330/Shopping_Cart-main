@@ -96,6 +96,9 @@ a {
   padding: 10px;
   gap: 10px;
 }
+.details p {
+  height: 55px;
+}
 
 .price-quantity {
   display: flex;
