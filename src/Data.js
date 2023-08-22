@@ -102,7 +102,7 @@ let shopItemData = [
     id: "productno15",
     name: "BLIVE",
     price: "599",
-    desc: "Men Regular Fit Printed T-Shirt..",
+    desc: "TOM & JERRY Men Regular Fit Printed T-Shirt..",
     img: "images/Tom.jpg",
   },
   {
