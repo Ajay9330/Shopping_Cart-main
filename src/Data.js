@@ -24,7 +24,7 @@ let shopItemData = [
     id: "productno4",
     name: "OFF-WHITE",
     price: "991",
-    desc: "Black shorts with Yellow wave .",
+    desc: "Black shorts with Yellow wave Men shorts .",
     img: "images/img-4.jpg",
   },
   {
