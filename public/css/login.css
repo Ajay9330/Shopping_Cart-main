@@ -40,6 +40,7 @@ a:active:hover {
 #login-form-wrap {
   background-color: #fff;
   width: 35%;
+  margin-top: 140px !important;
   margin: 30px auto;
   text-align: center;
   padding: 20px 0 0 0;
