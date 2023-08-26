@@ -24,7 +24,7 @@ let shopItemData = [
     id: "productno4",
     name: "OFF-WHITE",
     price: "991",
-    desc: "Black shorts with Yellow wave .",
+    desc: "Black shorts with Yellow wave Men shorts .",
     img: "images/img-4.jpg",
   },
   {
@@ -102,7 +102,7 @@ let shopItemData = [
     id: "productno15",
     name: "BLIVE",
     price: "599",
-    desc: "Men Regular Fit Printed T-Shirt..",
+    desc: "TOM & JERRY Men Regular Fit Printed T-Shirt..",
     img: "images/Tom.jpg",
   },
   {
