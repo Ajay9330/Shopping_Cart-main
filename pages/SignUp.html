@@ -4,18 +4,14 @@
     <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="../public/css/signUp.css" />
+    <link rel="stylesheet" href="/css/signUp.css" />
+    
   </head>
   <body>
     <div class="container">
       <div class="center">
         <h1>Register</h1>
-        <form method="POST" action="">
-          <div class="txt_field">
-            <input type="text" name="name" required />
-            <span></span>
-            <label>Name</label>
-          </div>
+        <form method="POST" action="/signup">
           <div class="txt_field">
             <input type="email" name="email" required />
             <span></span>
@@ -26,14 +22,10 @@
             <span></span>
             <label>Password</label>
           </div>
-          <div class="txt_field">
-            <input type="password" name="cpassword" required />
-            <span></span>
-            <label>Confirm Password</label>
-          </div>
+
           <input name="submit" type="Submit" value="Sign Up" />
           <div class="signup_link">
-            Have an Account ? <a href="login.html">Login Here</a>
+            Have an Account ? <a href="login">Login Here</a>
           </div>
         </form>
       </div>
